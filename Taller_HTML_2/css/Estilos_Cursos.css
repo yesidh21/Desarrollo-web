@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Open Sans';
+    padding-top: 40px;
+    color: white;
+}
+.contenedor-footer{
+    display: flex;
+    align-items: initial;
+    justify-content: initial;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+}
+.contenedor-footer h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.contenedor-footer p{
+    max-width: 500px;
+    margin: 10px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+
+/* --------------------------------------------------------------------------*/
+
+
+
+
+.contened{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 0 60px;
+    float: right;
+}
+.contened .card{
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: -220px;
+    margin-right: 25px;
+    transition: all 0.25s;
+}
+
+
+
+/* ----------------------------  CARD  ----------------------------------------------*/
+
+
+
+.card-body{
+    margin: 10PX;
+}
+.card-body button{
+    width: 80%;
+    margin-top: 10PX;
+   margin-left: 34px;
+}
+.rsociales{
+    list-style: none;
+    margin: 5px;
+}
+.rsociales li{
+    margin-left: 10px;
+    justify-content: left;
+    text-align: left;
+}
+.rsociales p{
+    text-decoration: none;
+    color: #111;
+}
+.rsociales p svg{
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+.rectangu{
+    border: 1px solid black;
+    width: 770px;
+    height: 330px;
+    float: right;
+    margin-top: 20px;
+    display: table-cell;
+    margin-bottom: 40px;
+    
+}
+.rectangu a{
+    margin-left: 20px;
+}
+.rectangu h3{
+    margin-left: 15px;
+    font-size: 1.4rem;
+}
+
+.rectangu h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+ol{
+    margin-top: 10px;
+    list-style-position: inside;
+    margin-left: 20px;
+   display: flex;
+   text-decoration: none;
+}
+.rectangu ol{
+    margin-top: 10px;
+    list-style-position: inside;
+    margin-left: 20px;
+   display: flex;
+   text-decoration: none;
+}
+li{
+    text-align: center;
+}
+
+
+
+.container{
+    
+    text-align: center;
+}
+
+.card1{
+    display: flex;
+    overflow: hidden;
+    width: 700px;
+    height: 150px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.right-column{
+    text-align: left;
+    margin-left: 10px;
+    border: none;
+}
+.right-column h4{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.right-column p{
+    font-size: 0.9rem;
+    margin-bottom: -2px;
+}
+.right-column a{
+    margin-bottom: 10px;
+}
+.proximo{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 0.8rem;
+}
