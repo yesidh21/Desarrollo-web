@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: url(../IMG/fondo.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color:#C22D2D;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #C22D2D;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: #4C464D;
+}
+
+/* --------------------------------------------------------------------------*/
+
+
+.contenedor-card{
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card1{
+    display: flex;
+    overflow: hidden;
+    width: 750px;
+    height: 150px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.right-column{
+    text-align: left;
+    margin-left: 10px;
+    border: none;
+}
+.right-column h4{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.right-column p{
+    font-size: 0.9rem;
+    margin-bottom: -2px;
+}
+.right-column a{
+    margin-bottom: 10px;
+}
+.proximo{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+
+/* --------------------------------------------------------------------------*/
+
+
+section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section h1{
+    font-size: 30px;
+    text-align: center;
+    color: #C22D2D;
+    margin-top: 20px;
+}
+.contenedor{
+    text-align: center;
+}
+.contenedor p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #383E9A;
+    margin-bottom: 30px;
+}
+.contenedor a{
+    color: white;
+    text-decoration: none;
+    background: #C22D2D;
+    padding: 4px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+
+
+
+/* --------------------------------------------------------------------------*/
+
+.container1{
+    margin-top: 50px ;
+    display: flex;
+    flex-wrap: wrap;   
+    padding: 10px 20px;
+}
+.container1 .card1{
+    width: 260px;
+    height: 260px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.25s;
+    overflow: hidden;
+    flex-direction: column;
+}
+.container1 .card1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+.container1 .card1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+.container1 .card1 h4{
+    font-weight: 600;
+    margin-top: -40px;
+    text-align: left;
+    margin-left: 5px;
+}
+.container1 .card1 h6{
+    font-weight: 400;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: -10px;
+    font-size: 13px;
+}
+.container1 .card1 p{
+    padding: 0 2rem;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: left;
+}
+button{
+    width: 70%;
+    margin-left: 40px;
+}
+
+
+
+
+ /*--------------------------------------------------------------------------*/
+
+
+
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Open Sans';
+    padding-top: 40px;
+    color: white;
+    margin-top: 60px;
+}
+.contenedor-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contenedor-footer h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.contenedor-footer p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.rsociales{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.rsociales li{
+    margin: 0 10px;
+}
+.rsociales a{
+    text-decoration: none;
+    color: #fff;
+} 
+.rsociales a svg{
+    font-size: 1.1rem;
+}
+.footer{
+    background: #000;
+    width: 100vw;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+
+/* --------------------------------------------------------------------------*/
+
+
+
+
